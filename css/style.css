@@ -1,0 +1,82 @@
+.parallax-container {
+  height: 20%;
+}
+.parallax img {
+  filter: grayscale(1);
+  opacity: 0.8 !important;
+}
+
+/* .navbar-fixed {
+  z-index: 9999;
+}
+
+.sidenav {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+} */
+
+.clients img {
+  max-width: 200px;
+  max-width: 200px;
+  filter: drop-shadow(1px 3px 3px rgba(0, 0, 0, 0.8));
+}
+
+section,
+footer {
+  padding: 20px 0;
+}
+
+footer {
+  position: relative;
+  height: 150px;
+}
+
+.card-panel {
+  border-radius: 10px;
+}
+
+/* icon medsos */
+
+.icons {
+  display: flex;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icons a {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  background-color: beige;
+  line-height: 30px;
+  margin: 0 15px;
+  border-radius: 50%;
+  transition: 0.5 ease;
+}
+
+.icons a:hover {
+  color: beige;
+  /* transform: translate(0, -30px); */
+}
+
+.icons a:nth-child(1):hover {
+  background-color: rgb(15, 124, 226);
+}
+
+.icons a:nth-child(2):hover {
+  background-color: rgb(9, 177, 243);
+}
+
+.icons a:nth-child(3):hover {
+  background-color: rgb(39, 238, 13);
+}
+
+.icons a:nth-child(4):hover {
+  background-color: rgb(240, 7, 7);
+}
